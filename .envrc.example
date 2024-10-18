@@ -1,0 +1,2 @@
+source .udesk_robot_scripts/bin/activate
+source .env

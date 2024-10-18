@@ -1,0 +1,9 @@
+--index-url https://pypi.tuna.tsinghua.edu.cn/simple
+fastapi
+uvicorn
+openai
+langchain_openai
+langchain
+dynaconf
+pytest
+python-dotenv
