@@ -7,3 +7,4 @@ langchain
 dynaconf
 pytest
 python-dotenv
+pyicu

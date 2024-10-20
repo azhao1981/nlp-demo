@@ -1,4 +1,7 @@
 {
+  "go.toolsEnvVars": {
+    "CGO_ENABLED": 1,
+  },
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.formatOnSave": true,

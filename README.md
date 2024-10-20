@@ -1,71 +1,51 @@
-# fast-llm-template
+# 
+## icu
+主页已经到这里
+https://gitlab.pyicu.org/main/pyicu
 
-一个简单的基于 fast-api 的 llm 模板
+https://github.com/ovalhub/pyicu
+https://lib.rs/crates/icu_capi
+https://docs.rs/icu/latest/icu/
+https://github.com/unicode-org/icu4x/tree/main/ffi/npm
 
-## 技术栈
+https://gitlab.pyicu.org/main/pyicu
+https://github.com/goodsign/icu
+这个没有分词的功能
 
-langchain + openai
+这个只有语言检测功能
+https://github.com/aboSamoor/pycld2?tab=readme-ov-file
+https://github.com/google/cld3
 
-fastapi + uvicorn + poetry + uv
+## 方法二 jieba 加词库
 
-## env
+go: jieba up 2.6k
+https://github.com/go-ego/gse/blob/master/README_zh.md
 
-uv + poetry
+泰文字典可以用这个
+https://github.com/tlwg/libthai/tree/master/data
 
-### 安装 uv
+https://github.com/PyThaiNLP/pythainlp/blo b/dev/pythainlp/corpus/words_th.txt
+https://github.com/PyThaiNLP/pythainlp/tree/dev/pythainlp/corpus
+https://github.com/PyThaiNLP/pythainlp
 
-下载 https://github.com/astral-sh/uv/releases
+拼音
+https://github.com/go-ego/gpy
 
-```bash
-which uv
-```
+https://github.com/yanyiwu/gojieba c++ 2.4k
+    https://imlht.com/archives/416/
 
-### 安装 poetry
+https://github.com/wangbin/jiebago 老版本
+"github.com/jaysharp/jiebago" 我们用的
 
-https://python-poetry.org/docs/ 官方的要求是建在虚拟环境中，以防止异常升级造成环境破坏。
+## 方法三： nlp server
 
-```bash
-# 修改 .env
-cp .env.example .env
-# 修改 .env 中的 变量
+https://github.com/web64/nlpserver
+python3 -m polyglot download LANG:en？为什么我没有有？
 
-# 初始化环境和安装 poetry
-build.sh
-# 载入环境
-source .envrc
-# 验证
-which poetry
+https://github.com/keon/awesome-nlp
 
-# 添加依赖:
-poetry lock
-poetry install --no-root
+https://github.com/jsrpy/Chinese-NLP-Jieba/blob/master/jieba_intro.ipynb
 
-# 运行
-poetry run python main.py
-```
-
-### 项目环境:
-
-```bash
-source .envrc
-uv pip install -r uv.poetry.txt
-uv pip install -r requirements.txt
-```
-
-## QA
-
-1 变量 PYTHON_PATH VENV_ROOT VENV_PATH 用来干什么
-
-```bash
-PYTHON_PATH=~/.py/python311/
-VENV_ROOT=~/.py/venvs/
-VENV_PATH=~/.py/venvs/llm
-```
-
-PYTHON_PATH 如果.env中有指定 python 目录，则使用指定的 python 目录 -p
-
-VENV_ROOT 为了把所有的虚拟环境放在一个公共目录下，方便管理。不设置默认为项目目录
-
-VENV_PATH 为了指定当前项目的虚拟环境的位置。默认为 VENV_ROOT/.项目名
-
-开发环境建议设置在公共目录下，生产环境建议设置在项目目录下。
+py:
+https://github.com/fxsjy/jieba
+es thai https://github.com/apachecn/elasticsearch-doc-zh/blob/master/docs/354.md
