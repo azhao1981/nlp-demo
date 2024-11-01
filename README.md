@@ -24,8 +24,10 @@ https://github.com/go-ego/gse/blob/master/README_zh.md
 泰文字典可以用这个
 https://github.com/tlwg/libthai/tree/master/data
 
-https://github.com/PyThaiNLP/pythainlp/blo b/dev/pythainlp/corpus/words_th.txt
+https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/words_th.txt
+
 https://github.com/PyThaiNLP/pythainlp/tree/dev/pythainlp/corpus
+
 https://github.com/PyThaiNLP/pythainlp
 
 拼音
