@@ -1,2 +1,2 @@
-source .udesk_robot_scripts/bin/activate
+source ~/.py/venvs/llm/bin/activate
 source .env
